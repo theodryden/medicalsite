@@ -1,0 +1,39 @@
+.condition-directory-card-container {
+    background-color: #f9f9f9; /* Light gray background for the card */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    text-align: center; /* Center text horizontally within the card */
+    max-width: 400px; /* Max width for the card */
+    margin: 20px auto; /* Center the card horizontally with margin */
+  }
+  
+  .condition-directory-card-container h3 {
+    margin: 0 0 10px; /* Margin below the heading */
+    color: #333; /* Dark gray color for the heading */
+  }
+  
+  .condition-directory-card-container p {
+    margin: 0 0 20px; /* Margin below the paragraph */
+    color: #666; /* Medium gray color for the paragraph */
+  }
+  
+  /* Ensure BlankButton is styled appropriately */
+  .blank-button {
+    background-color: #ADD8E6; /* Baby blue background */
+    color: white; /* White text */
+    padding: 20px; /* Padding around the text */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center text horizontally */
+    display: flex; /* Use Flexbox for centering content */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: fit-content; /* Fit the width to the content */
+    margin: 0 auto; /* Center the div horizontally in its container */
+  }
+  
+  .blank-button h3 {
+    margin: 0; /* Remove default margin from h3 */
+  }
+  

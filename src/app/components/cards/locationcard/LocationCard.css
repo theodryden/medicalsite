@@ -1,0 +1,33 @@
+.card-container {
+    background-color: #007BFF; /* Blue background color */
+    color: white; /* White text color */
+    padding: 20px; /* Adds padding inside the card container */
+    border-radius: 10px; /* Adds rounded corners to the card container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow to the card container */
+    width: 300px; /* Sets a fixed width for the card container */
+    text-align: center; /* Centers text inside the card container */
+    margin: 20px; /* Adds margin around the card container */
+}
+
+.card-container h3,
+.card-container p {
+    margin: 10px 0; /* Adds margin above and below the h3 and p tags */
+}
+
+.ViewButton {
+    display: inline-block; /* Makes the button an inline-block element */
+    padding: 10px 20px; /* Adds padding to the button */
+    border: 2px solid black; /* Adds a black border to the button */
+    background-color: transparent; /* Makes the background transparent */
+    color: black; /* Sets the text color to black */
+    text-decoration: none; /* Removes underline from text */
+    cursor: pointer; /* Changes the cursor to a pointer */
+    border-radius: 5px; /* Adds rounded corners to the button */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adds a smooth transition for hover effect */
+}
+
+.ViewButton:hover {
+    background-color: black; /* Changes the background color to black on hover */
+    color: white; /* Changes the text color to white on hover */
+}
+

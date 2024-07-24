@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/sections/quicklinkssection/QuickLinks.jsx", "src/app/components/sections/abouteventssection/AboutEvents.jsx", "src/app/components/nav-bar/NavBar.jsx", "src/app/components/header/Header.jsx", "src/app/components/footer/Footer.jsx", "src/app/components/cards/treatmentcard/TreatmentCard.jsx", "src/app/components/cards/locationcard/LocationCard.jsx", "src/app/pages/cateracts/Cataracts.jsx", "src/app/pages/companyinformation/AboutUs.jsx", "src/app/pages/companyinformation/Careers.jsx", "src/app/pages/companyinformation/ContactUs.jsx", "src/app/pages/companyinformation/Events.jsx", "src/app/pages/companyinformation/HealthcareProfessionals.jsx", "src/app/pages/companyinformation/News.jsx", "src/app/pages/companyinformation/Optemetrists.jsx", "src/app/pages/locations/Locations.jsx", "src/app/pages/patientinfo/PatientInfo.jsx", "src/app/pages/patientjourney/PatientJourney.jsx", "src/app/pages/treatments/Treatments.jsx"],
   "exclude": ["node_modules"]
 }

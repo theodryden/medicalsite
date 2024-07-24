@@ -1,0 +1,33 @@
+
+.quick-links-wrapper {
+    display: flex; /* Use Flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px; /* Space between the grid and the card */
+  }
+  
+  .quick-links-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for the QuickLinksButton */
+    gap: calc(16px + 0.25 * 16px); /* Increase column gap by 25% */
+    row-gap: 8px; /* Space between rows */
+    flex: 1; /* Allow this section to take available space */
+    max-width: 70%; /* Set maximum width to ensure enough space for the card */
+  }
+  
+  .condition-directory-card-container {
+    flex: 1; /* Allow the card to take available space */
+    max-width: 30%; /* Set maximum width for the card section */
+  }
+  
+  @media (max-width: 768px) {
+    .quick-links-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .quick-links-container {
+      grid-template-columns: 1fr; /* 1 column on small screens */
+    }
+  }
+  

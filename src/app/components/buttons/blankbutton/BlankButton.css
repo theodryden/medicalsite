@@ -1,0 +1,18 @@
+.blank-button {
+    background-color: #ADD8E6; /* Baby blue background */
+    color: white; /* White text */
+    padding: 20px; /* Padding around the text */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center text horizontally */
+    display: flex; /* Use Flexbox for centering content */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: fit-content; /* Fit the width to the content */
+    margin: 0 auto; /* Center the div horizontally in its container */
+  }
+  
+  .blank-button h3 {
+    margin: 0; /* Remove default margin from h3 */
+  }
+  
