@@ -16,6 +16,7 @@ Hosting on Vercel
 **Project Process**
 1. Day 0 - Understanding project brief and managing delivery expectations
 2. Day 1 - Creating basic website components - medical cards, buttons, sections
+3. Day 2 - Opting to implement Tailwind.css styling for pages instead of bespoke components
 
 
 **Project Features**
@@ -25,11 +26,11 @@ Hosting on Vercel
 
 
 **Project Difficulties**
-- 
+- Time consumption of designing bespoke components for each page
 
 
 **Project Lessons**
-- 
+- Save time and possibly quality of design by using Tailwind.css and tweaking where necessary
 
 
 **Overall Experience**
