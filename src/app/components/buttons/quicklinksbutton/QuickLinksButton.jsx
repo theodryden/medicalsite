@@ -3,9 +3,9 @@ import './QuickLinksButton.css';
 
 const QuickLinksButton = ({ information }) => {
   return (
-    <h3 className="quick-links-button">
-      {information}
-    </h3>
+    <div className="quick-links-button">
+      <h3>{information}</h3>
+    </div>
   );
 }
 

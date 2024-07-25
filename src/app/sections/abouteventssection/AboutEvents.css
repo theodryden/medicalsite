@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows the items to wrap onto multiple lines */
+    justify-content: center; /* Centers the card containers horizontally */
+    gap: 20px; /* Adds space between the card containers */
+    padding: 20px; /* Optional: Adds padding around the container */
+}
+
+.container-cardOne,
+.container-cardTwo {
+    background-color: #f0f0f0; /* Optional: Adds a background color to the cards */
+    padding: 20px; /* Adds padding inside the card containers */
+    border-radius: 10px; /* Optional: Adds rounded corners to the card containers */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow to the card containers */
+    width: 300px; /* Sets a fixed width for the card containers */
+    text-align: center; /* Centers text inside the card containers */
+    flex: 1; /* Allows the cards to grow and shrink as needed */
+    max-width: 100%; /* Prevents the cards from exceeding the container width */
+}
+
+.container-cardOne img,
+.container-cardTwo img {
+    width: 100%; /* Makes images responsive */
+    height: auto; /* Maintains the aspect ratio of images */
+    border-radius: 10px; /* Optional: Adds rounded corners to images */
+}
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stacks the cards vertically on small screens */
+        align-items: center; /* Centers the cards horizontally */
+    }
+
+    .container-cardOne,
+    .container-cardTwo {
+        width: 100%; /* Makes the cards full-width on smaller screens */
+        max-width: 400px; /* Sets a max width for the cards */
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px; /* Reduces padding around the container on small screens */
+    }
+
+    .container-cardOne,
+    .container-cardTwo {
+        width: 100%; /* Makes the cards full-width on mobile screens */
+        max-width: 300px; /* Adjusts the max width for smaller screens */
+    }
+}

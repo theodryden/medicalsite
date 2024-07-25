@@ -1,8 +1,8 @@
 import React from 'react';
 import ViewButton from '../../buttons/viewbutton/ViewButton';
-import '../locationcard/LocationCard.css'; 
+import '../locationcard/LocationCardTwo.css'; 
 
-const LocationCard = ({Title, Information}) => {
+const LocationCardTwo = ({Title, Information}) => {
   return (
     <div className='card-container'>
         <h3>{Title}</h3>
@@ -15,4 +15,4 @@ const LocationCard = ({Title, Information}) => {
   )
 }
 
-export default LocationCard
+export default LocationCardTwo

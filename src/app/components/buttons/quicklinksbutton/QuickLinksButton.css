@@ -1,46 +1,67 @@
+.quick-links-wrapper {
+  display: flex; /* Use Flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 20px; /* Space between the grid and the card */
+  justify-content: start; /* Align items to the start (left) */
+}
+
 .quick-links-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
-    gap: calc(16px + 0.25 * 16px); /* Increase column gap by 25% of the original gap */
-    row-gap: 8px; /* Space between rows */
-    max-width: 100%; /* Make container width responsive */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 0; /* Remove default padding */
-    justify-content: start; /* Align content to the start (left) */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+  gap: calc(8px + 0.25 * 8px); /* Decrease column gap by 50% of the original gap */
+  row-gap: 4px; /* Decrease row gap by 50% */
+  max-width: 100%; /* Make container width responsive */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0; /* Remove default padding */
+  justify-content: start; /* Align content to the start (left) */
+}
+
+.quick-links-button {
+  display: flex;
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  padding: 5px; /* Decrease padding by 50% */
+  font-size: 0.75em; /* Decrease font size by 50% */
+  background-color: lightgray; /* Light gray background */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-align: center; /* Center text within the button */
+  margin: 0; /* Remove default margin */
+}
+
+.quick-links-button:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: white; /* White text color on hover */
+  border: 1px solid #007bff; /* Optional: Blue border on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .quick-links-container {
+    grid-template-columns: repeat(3, 1fr); /* Maintain 3 columns on larger screens */
+    gap: calc(8px + 0.25 * 8px); /* Adjust column gap */
   }
-  
-  .quick-links-button {
-    display: flex;
-    align-items: center; /* Center text vertically */
-    justify-content: center; /* Center text horizontally */
-    padding: 10px;
-    background-color:lightgray; /* Light gray background */
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 4px; /* Rounded corners */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
-    cursor: pointer; /* Pointer cursor on hover */
-    text-align: center; /* Center text within the h3 element */
-    margin: 0; /* Remove default margin of h3 */
+}
+
+@media (max-width: 768px) {
+  .quick-links-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    gap: calc(8px + 0.25 * 8px); /* Adjust column gap */
   }
-  
-  .quick-links-button:hover {
-    background-color: #007bff; /* Blue background on hover */
-    color: white; /* White text color on hover */
-    border: 1px solid #007bff; /* Optional: Blue border on hover */
+}
+
+@media (max-width: 480px) {
+  .quick-links-container {
+    grid-template-columns: 1fr; /* 1 column on small screens */
+    gap: calc(8px + 0.25 * 8px); /* Adjust column gap */
   }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .quick-links-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
-      gap: calc(16px + 0.25 * 16px); /* Adjust column gap */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .quick-links-container {
-      grid-template-columns: 1fr; /* 1 column on small screens */
-      gap: calc(16px + 0.25 * 16px); /* Adjust column gap */
-    }
-  }
-  
+}
+
+.condition-directory-card-container {
+  flex: 1; /* Allow the card to take available space */
+  max-width: 30%; /* Set maximum width for the card section */
+  margin: 0; /* Ensure no extra margin */
+  padding: 0; /* Ensure no extra padding */
+}
