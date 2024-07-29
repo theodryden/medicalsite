@@ -4,6 +4,8 @@ import BlogSection from './sections/blogsection/BlogSection'
 import Header from './sections/headersection/Header'
 import QuickLinks from './sections/quicklinkssection/QuickLinks'
 import TreatmentSection from './sections/treatmentsection/TreatmentSection'
+
+
 // import NavBar from './components/nav-bar/NavBar'
 
 
@@ -11,6 +13,7 @@ import TreatmentSection from './sections/treatmentsection/TreatmentSection'
 const page = () => {
   return (
     <div>
+ 
       <Header />
       <QuickLinks />
       <TreatmentSection />
