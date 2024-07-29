@@ -1,5 +1,5 @@
 **Medical Website README**
-The brief for this website was to create a website for a eyesight medical company. 
+The brief for this website was to create a patient management system for a eyesight medical company. 
 1. The website must have a simple user interface
 2. The website must be accessible and have readable fonts for users
 
